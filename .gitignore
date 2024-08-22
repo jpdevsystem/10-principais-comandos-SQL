@@ -1,0 +1,20 @@
+# Arquivos comuns em ambientes SQL que devem ser ignorados
+
+# Logs de banco de dados
+*.log
+
+# Arquivos temporários de editor
+*.swp
+*.swo
+*~
+
+# Backups de arquivos SQL
+*.bak
+*.sql~
+
+# Dados sensíveis (criar um arquivo .env, por exemplo)
+.env
+
+# Outros arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
