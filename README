@@ -1,0 +1,70 @@
+# Enunciado do Projeto: Sistema de Vendas de Cursos
+
+## Objetivo
+Desenvolver um banco de dados simples para registrar as vendas de cursos online, incluindo a criação de tabelas, inserção de dados, consultas e manipulações de registros.
+
+## Requisitos
+1. **Criação do Banco de Dados e Tabela:**
+   - Crie um banco de dados chamado `JOÃO`.
+   - Crie uma tabela `Vendas` com as seguintes colunas: `ID_Vendas` (INT), `Curso` (VARCHAR), `Aluno` (VARCHAR), `Estado` (VARCHAR), `Valor` (DECIMAL).
+
+2. **Inserção de Dados:**
+   - Insira pelo menos 10 registros na tabela `Vendas`, variando os cursos, alunos e estados.
+
+3. **Consultas e Operações:**
+   - Realize consultas que retornem todos os registros, bem como apenas algumas colunas específicas.
+   - Ordene os registros por `Aluno` em ordem alfabética.
+   - Filtre os registros por um determinado estado.
+   - Atualize o valor de um curso específico.
+   - Exclua um registro específico com base no `ID_Vendas`.
+   - Limpe a tabela `Vendas` usando o comando `TRUNCATE`.
+
+4. **Documentação:**
+   - Crie um README explicando o projeto, incluindo uma descrição do banco de dados, instruções de uso, e detalhes sobre as operações realizadas.
+   - Inclua um arquivo `.gitignore` para o projeto.
+
+5. **Extras (opcional):**
+   - Adicione comandos SQL para realizar outras operações de manipulação de dados, como `JOINs`, `GROUP BY`, `HAVING`, etc.
+
+## Entrega
+Submeta o script SQL completo juntamente com a documentação (README.md e .gitignore) através do repositório Git.
+# Projeto de Banco de Dados: Sistema de Vendas de Cursos
+
+## Descrição
+Este projeto consiste em um simples sistema de vendas de cursos, implementado em SQL. O banco de dados armazena informações sobre vendas de diferentes cursos, incluindo o ID da venda, o nome do curso, o aluno que comprou o curso, o estado de residência do aluno e o valor da venda.
+
+## Estrutura do Banco de Dados
+- **Database:** JOÃO
+- **Tabela:** Vendas
+  - **Colunas:**
+    - `ID_Vendas`: Identificador único da venda.
+    - `Curso`: Nome do curso vendido.
+    - `Aluno`: Nome do aluno que comprou o curso.
+    - `Estado`: Estado de residência do aluno.
+    - `Valor`: Valor da venda.
+
+## Instruções para Uso
+1. **Criação do Banco de Dados e da Tabela:**
+   - O banco de dados `JOÃO` e a tabela `Vendas` são criados com os comandos SQL fornecidos no script.
+   
+2. **Inserção de Dados:**
+   - Dez registros são inseridos na tabela `Vendas`, representando diferentes vendas de cursos para alunos em diversos estados.
+
+3. **Consultas e Manipulação de Dados:**
+   - Foram realizadas diversas consultas SQL para visualizar os dados, ordenar por aluno, filtrar por estado, e realizar atualizações e exclusões específicas.
+
+4. **Limpeza da Tabela:**
+   - Após manipulações, a tabela `Vendas` é truncada para remover todos os registros.
+
+## Como Executar
+Para executar este projeto, siga as etapas abaixo:
+1. Certifique-se de que você possui um ambiente SQL configurado (MySQL, MariaDB, etc.).
+2. Execute o script SQL fornecido neste repositório para criar o banco de dados, tabela, inserir dados e realizar as operações descritas.
+3. Explore os comandos SQL para entender como as operações de manipulação de dados funcionam.
+
+## Contribuições
+Contribuições são bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+Este projeto é distribuído sob a licença MIT.
+
